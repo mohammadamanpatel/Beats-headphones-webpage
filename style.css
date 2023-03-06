@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    color: white;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+section ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 12px;
+}
+.img{
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    width: 100px;
+    height: 42px;
+    color: white;
+    background-color: rgb(65, 64, 64);
+    border-radius: 6px;
+    box-shadow: -3px -3px 5px rgb(92, 89, 89);
+}
+.mainimg{
+    width: 300px;
+}
+.onEar{
+    margin-left: 44px;
+    width: 300px;
+}
+.nav-span{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nav-span h2{
+    font-size: 3rem;
+}
+.nav-li{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.hero-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    gap: 20px;
+    width: 230px;
+    height: 37px;
+    background-color: rgb(53, 51, 51);
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.specs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.specsLogo
+{
+    display: flex;
+    justify-content: center;
+}
+.specsImage{
+    margin: 0 100px;
+}
+.diff-specs-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.battery{
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   margin:0 -25px;
+}
+.case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.group{
+    display: flex;
+    background-color: rgb(53, 51, 51);
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.caseImage{
+    width:200px;
+}
+.case-right{
+    margin-top: 12px;
+}
+.case-right p{
+    margin-bottom: 23px;
+}
+.buy-span{
+    display: flex;
+    justify-content: center;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(53, 51, 51);
+    height: 300px;
+    width: 1000px;
+    margin-bottom: 80px;
+}
+.buynowImage{
+    width: 300px;
+}
+.buy-btn{
+    margin-top: 12px;
+}
+.productLogo{
+    width: 200px;
+}
+.Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.Products-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px; 
+}
+.shoppingBag-div{
+    display: flex;
+    gap: 50px;
+    place-items: center;
+    margin-bottom: 20px;
+
+}
+.shoppingBag-div Img img{
+    margin-bottom: 15px;
+}
+.shoppingBagImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 26px;
+    background-color: black;
+}
+.ProductsImgAndContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 10px;
+    height: 220px;
+    background-color: rgb(57, 56, 56);
+}
+.headphone{
+    height: 66px;
+    width: 200px;
+    margin-bottom: 108px;
+    background-color: black;
+}
+.headphone img{
+  margin-left: 35px;
+}
+.Footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.footer-beat-logo{
+    margin-top: 6px;
+}
+.Follow{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+}
+.Follow-logos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.email-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgb(83, 80, 80);
+    width: 305px;
+    height: 55px;
+    border-radius: 8px;
+}
+.subscribe{
+   display: flex;
+   gap: 10px;
+   width: 172px;
+   height: 35px;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+   border-radius: 8px;
+}
+.Products-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.products-li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+}
+.Follow{
+    display: flex;
+    flex-direction: column;
+}
